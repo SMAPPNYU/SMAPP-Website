@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SMaPP - PI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<style type="text/css">
+          body {
+            padding-top: 80px;
+            padding-bottom: 40px;
+          }
+          .my-side-bar {
+                  margin-right: 50px;
+                  padding-left: 50px;
+                  padding-top:9px;
+          }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+</head>
+<body>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  <div id="wrap">
+    <!--Top navigation bar
+    ==========================================================================================-->
+	<div class="navbar navbar-fixed-top">
+         <div class="navbar-inner">
+           <div class="container">
+             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <a class="brand" href="index.html">SMaPP: <small>Social Media and Political Participation</small></a>
+             <div class="nav-collapse collapse">
+               <ul class="nav pull-right">
+                 <li><a href="about.html">About</a></li>
+                 <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    People
+                  <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="pi.html">Principal Investigators</a></li>
+                    <li class="divider"></li>
+                    <li><a href="student.html">Staff and Graduate Students</a></li>
+                    <li class="divider"></li>
+                    <li><a href="collaborator.html">Other Collaborators</a></li>
+                  </ul>
+                 </li>
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Resources
+                  <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="papers.html">Papers</a></li>
+                    <li class="divider"></li>
+                    <li><a href="reports.html">SMaPP Data Reports</a></li>
+                    <li class="divider"></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li class="divider"></li>
+                    <li><a href="softwares.html">Softwares</a></li>
+                  </ul>
+                 </li>
+                 <li><a href="calendar.html">Calendar</a></li>
+                 <li><a href="news.html">News</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+               </ul>
+             </div><!--/.nav-collapse -->
+           </div>
+         </div>
+       </div>
+
+    <!-- Body Content
+    ==========================================================================================-->
+	<div id="body" class="container">
+           <div class="row">
+               <!--Side navigation bar
+               ==========================================================================================-->
+               <div class="span3 my-side-bar">
+                   <ul class="nav nav-pills nav-stacked">
+                       <li>
+                           <a href="index.html" class="lead"><strong>Home</strong></a>
+                       </li>
+                       <li>
+                           <a href="about.html" class="lead"><strong>About</strong></a>
+                       </li>
+                       <li class="active">
+                           <a data-toggle="collapse" href="#people" class="lead">
+                               <strong>People</strong>
+                           </a>
+                       </li>
+                       <div id="people" class="collapse in">
+                           <ul class="nav nav-pills nav-stacked">
+                              <li class="active"><a href="pi.html">&nbsp;&nbsp;&nbsp;<em>Principal Investigators</em></a></li>
+                              <li><a href="student.html" >&nbsp;&nbsp;&nbsp;<em>Staff and Graduate Students</em></a></li>
+                              <li><a href="collaborator.html" >&nbsp;&nbsp;&nbsp;<em>Other Collaborators</em></a></li>
+                           </ul>
+                       </div>
+
+                       <li>
+                           <a data-toggle="collapse" href="#resources" class="lead">
+                                  <strong>Resources</strong>
+                           </a>
+                       </li>
+                       <div id="resources" class="collapse">
+                              <ul class="nav nav-pills nav-stacked">
+                                  <li><a href="papers.html">&nbsp;&nbsp;&nbsp;<em >Papers</em></a></li>
+                                    <li><a href="reports.html">&nbsp;&nbsp;&nbsp;<em >SMaPP Data Reports</em></a></li>
+                                    <li><a href="links.html">&nbsp;&nbsp;&nbsp;<em >Links</em></a></li>
+                                    <li><a href="softwares.html">&nbsp;&nbsp;&nbsp;<em >Softwares</em></a></li>
+                              </ul>
+                          </div>
+                       <li>
+                           <a href="calendar.html" class="lead"><strong>Calendar</strong></a>
+                       </li>
+                      <li>
+                           <a href="news.html" class="lead"><strong>News</strong></a>
+                       </li>
+                       <li>
+                           <a href="contact.html" class="lead"><strong>Contact</strong></a>
+                       </li>
+
+                   </ul>
+               </div><!---/side navigation bar-->
+            <!-- People Page
+            ==========================================================================================-->
+               <div class="span7" >
+                   <h3 >&nbsp;&nbsp;Principal Investigators</h3>
+                   <hr>
+                   <!--The accordion
+                   ===================================================== -->
+                   <ul class="nav nav-pills nav-stacked">
+
+                       <li>
+                           <a data-toggle="collapse"  href="#Jost">
+                               <strong>John Jost</strong>
+                               &nbsp;&nbsp;&nbsp;
+                               <small>Bio</small>
+                               <i class="icon-chevron-down"></i>
+                           </a>
+                       </li>
+                       <div id="Jost" class="collapse in row-fluid">
+                              <!--thumbnail image-->
+                               <ul class="thumbnails">
+                                     <li class="span3">
+                                         <div class="thumbnail">
+                                             <img src="img/johnjost.jpg">
+                                         </div>
+                                         <br/>
+                                         <a href="mailto:#" class="muted inline">john.jost@nyu.edu</a><br/>
+                                         <a href="http://psych.nyu.edu/jost/" class="muted" target="_blank">Personal Site</a><br/>
+                                         <a href="http://scholar.google.com/citations?user=Zh1vTeMAAAAJ&hl=en" class="muted" target="_blank">Google Scholar</a>
+
+                                     </li>
+                                     <li class="span1">
+                                     </li>
+                                     <li class="span7">
+                                         <p class="text-error"><strong> Psychology and Politics </strong></p>
+                                         <p>
+                                             <small>John T. Jost is Professor of Psychology and Politics and Co-Director of the Center for Social
+                                             and Political Behavior at New York University. His research, which addresses stereotyping,
+                                             prejudice, political ideology, and system justification theory, has been funded by the National
+                                             Science Foundation and has appeared in top scientific journals and received national and
+                                             international media attention. He has published over 120 journal articles and book chapters
+                                             and four co-edited book volumes, including Social and Psychological Bases of Ideology and
+                                             System Justification (Oxford, 2009). He has received numerous honors and awards, including
+                                             the Gordon Allport Intergroup Relations Prize, Erik Erikson Award for Early Career Research
+                                             Achievement in Political Psychology, International Society for Self and Identity Early Career
+                                             Award, Society for Personality and Social Psychology Theoretical Innovation Prize, Society of
+                                             Experimental Social Psychology Career Trajectory Award, and the Morton Deutsch Award for
+                                             Distinguished Scholarly and Practical Contributions to Social Justice. He has served on several
+                                             editorial boards and executive committees of professional societies and is currently editor of the
+                                             Oxford University Press book series on Political Psychology. He is a Fellow of the Society of
+                                             Experimental Social Psychology and the Association of Psychological Science.</small>
+                                         </p>
+                                     </li>
+                                 </ul>
+                           </div><!--end John Jost information-->
+
+                           <li>
+                                  <a data-toggle="collapse"  href="#Jonathan">
+                                      <strong>Jonathan Nagler</strong>
+                                      &nbsp;&nbsp;&nbsp;
+                                      <small>Bio</small>
+                                      <i class="icon-chevron-down"></i>
+                                  </a>
+                            </li>
+                            <div id="Jonathan" class="collapse in row-fluid">
+                                     <!--thumbnail image-->
+                                      <ul class="thumbnails">
+                                              <li class="span3">
+                                                  <div class="thumbnail">
+                                                      <img src="img/nagler_headshot.jpg">
+                                                  </div>
+                                                  <br/>
+                                                  <a href="mailto:#" class="muted inline">jonathan.nagler@nyu.edu</a><br/>
+                                                  <a href="http://politics.as.nyu.edu/object/JonathanNagler" target="_blank" class="muted">
+                                                      Personal Site</a><br/>
+                                                  <a href="http://scholar.google.com/citations?user=JI2td6YAAAAJ&hl=en" target="_blank" class="muted">Google Scholar</a>
+
+                                              </li>
+                                              <li class="span1">
+                                              </li>
+                                              <li class="span7">
+                                                  <p class="text-error"><strong> Politics </strong></p>
+                                                  <p>
+                                                      <small>
+                                                        Jonathan Nagler is Professor of Politics at New York University.
+He received his AB in government from Harvard University
+in 1982, and his Ph.D. from Caltech in 1989.  He has been a visiting
+associate professor at Caltech and Harvard, and has taught at the
+Summer Program, European Consortium for Political Research, Essex
+University, England, and the Summer Program, Inter-university
+Consortium for Political and Social Research, University of Michigan,
+as well as the ESRC Oxford Spring School in Quantitative Methods for
+Social Research.  In 2012 Professor Nagler was a Fernand Braudel Fellow
+at the European University Institute. Professor Nagler's research
+focuses on voting and elections.<br><br>
+
+Professor Nagler published a series of articles, co-authored with
+R. Michael Alvarez, on multiple-candidate elections that have examined
+the relative importance of issues and the state of the economy to
+voters.  Professor Nagler's work on strategic voting in British
+elections (with R. Michael Alvarez) won the 1998 Durr award.  Over the
+last 18 years he has also published a series of papers with Jan
+E. Leighley on the factors influencing voter turnout in the United
+States. They have just completed a book on voter turnout in the
+United States from 1972 to 2008.  Professor Nagler has also published
+articles on the voting behavior of Latinos and women.<br><br>
+
+Professor Nagler is currently working on the impact of economic
+conditions on voting in presidential elections, and the impact of
+California's Top 2 Election law.<br><br>
+
+Professor Nagler's work has been supported by several grants from the
+National Science Foundation.  In addition to his research, he
+established the world wide web site of the Political Methodology
+Section of the American Political Science Association, and served as
+president of the association from 2001-2003. Professor Nagler is a
+former editor of The Political Methodologist.  An estimator he developed
+for the study of voter turnout, Scobit, is incorporated in the STATA
+statistical package.  He is an Inaugural Fellow of the Society for
+Political methodology.<br><br>
+
+Professor Nagler has served as an expert witness on court casees on
+primary reform and election law, and has consulted for presidential
+campaigns and media surveys.  Nagler has appeared as a guest or been
+interviewed on CNN, MTV, and Fox-News, as well as National Public Radio.
+                                                      </small>
+                                                  </p>
+                                              </li>
+                                     </ul>
+                                  </div><!--end Johnathan information-->
+                            <li>
+                                <a data-toggle="collapse"  href="#Joshua">
+                                    <strong>Joshua A. Tucker</strong>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <small>Bio</small>
+                                    <i class="icon-chevron-down"></i>
+                                </a>
+                            </li>
+                            <div id="Joshua" class="collapse in row-fluid">
+                                <!--thumbnail image-->
+                                <ul class="thumbnails">
+                                      <li class="span3">
+                                          <div class="thumbnail">
+                                              <img src="img/Tucker.jpg">
+                                          </div>
+                                        <br/>
+                                          <a href="mailto:#" class="muted inline">joshua.tucker@nyu.edu</a><br/>
+                                          <a href="https://files.nyu.edu/jat7/public/" target="_blank" class="muted">
+                                              Personal Site</a><br/>
+                                          <a href="http://scholar.google.com/citations?user=fc0VgPAAAAAJ&hl=en" class="muted" target="_blank">Google Scholar</a><br>
+                                          <a href="http://www.themonkeycage.org/" class="muted" target="_blank">Blog</a><br>
+                                          <a href="https://twitter.com/j_a_tucker" class="twitter-follow-button" data-show-count="false">Follow @j_a_tucker
+                                          </a>
+                                          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                                      </li>
+                                      <li class="span1">
+                                      </li>
+                                      <li class="span7">
+                                          <p class="text-error"><strong> Politics and Russian and Slavic Studies </strong></p>
+                                          <p>
+                                              <small>Joshua A. Tucker is Professor of Politics with an affiliated appointment in the
+                                                    Department of Russian and Slavic Studies at New York University (NYU) and an
+                                                    Affiliated Professor of Politics at NYU-Abu Dhabi. Professor Tucker specializes
+                                                    in comparative politics with an emphasis on mass political behavior in East-
+                                                    Central Europe and the former Soviet Union, including elections and voting, the
+                                                    development of partisan attachment, public opinion formation, and mass protest.
+                                                    He is the author of <em>Regional Economic Voting: Russia, Poland, Hungary, Slovakia,
+                                                    and the Czech Republic, 1990-99 </em>(Cambridge University Press, 2006). His work has
+                                                    appeared in numerous academic journals, including the<em>American Journal of Political
+                                                    Science, British Journal of Politics, Comparative Politics, Comparative Political
+                                                    Studies, the Journal of Politics, </em> and the<em> Annual Review of Political Science, </em>and his
+                                                    opinions have been published in The New Republic, The Wall Street Journal, Al
+                                                    Jazeera English, and the International Herald Tribune. In 2006, he was awarded the
+                                                    Emerging Scholar Award for the top scholar in the field of Elections, Public Opinion,
+                                                    and Voting Behavior within 10 years of the doctorate. He is currently the Vice-
+                                                    President of the<em> Midwest Political Science Association</em> and a Member of the Executive
+                                                    Board of the <em>Association for the Study of East European and Eurasian Societies</em>. He
+                                                    is also a co-author of the award winning politics and policy blog <em>The Monkey Cage</em>
+                                                    <a href="http://www.themonkeycage.org">(www.themonkeycage.org)</a>.
+                                            </small>
+                                          </p>
+                                      </li>
+                                  </ul>
+                          </div><!--end Joshua information-->
+                      <li>
+                           <a data-toggle="collapse"  href="#bonneau">
+                               <strong>Richard Bonneau</strong>
+                               &nbsp;&nbsp;&nbsp;
+                               <small>Bio</small>
+                               <i class="icon-chevron-down"></i>
+                           </a>
+                       </li>
+                       <!--Person Information starts-->
+                       <div id="bonneau" class="collapse in row-fluid">
+                           <!--thumbnail image-->
+                               <ul class="thumbnails">
+                                   <li class="span3">
+                                       <div class="thumbnail">
+                                           <img src="img/rich.png">
+                                       </div>
+                                       <br/>
+                                       <a href="mailto:#" class="muted inline">bonneau@nyu.edu</a><br/>
+                                       <a href="http://bonneaulab.bio.nyu.edu/" class="muted" target="_blank">Personal Site</a><br/>
+                                       <a href="http://scholar.google.com/citations?user=Wq8XTykAAAAJ&hl=en" class="muted" target="_blank">Google Scholar</a>
+                                   </li>
+                                   <li class="span1">
+                                   </li>
+                                   <li class="span7">
+                                       <p class="text-error"><strong> Biology and Computer Science </strong></p>
+                                       <p>
+                                           <small>Rich Bonneau is an Associate Professor of Biology and Computer Science at NYU. Professor Bonneau's  laboratory is focused on two areas in computational and systems biology: 1) Predicting and designing protein and peptidomimetic structure and 2) Learning dynamic network models automatically from functional genomics data using scalable methods.<br><br>
+
+In both research areas Professor Bonneau has played key roles in achieving critical field-wide milestones. In the area of structure prediction he was one of the early authors on the Rosetta code, which was one of the first codes to demonstrate accurate and comprehensive ability to predict protein structure in the absence of detectable sequence homology to proteins with known structures. His  lab continues to be a core contributor to the Rosetta research community, participating in the recent refactoring of the code and adding several new functionalities.<br><br>
+
+Professor Bonneau's lab has also made key contributions to the area of genomics data analysis in a systems-biology context.  His lab  focuses on developing new methods for network inference that simultaneously learn dynamics and topology from data (the Inferelator), and methods that learn condition-dependent co-regulated gene groups from integrations of different genomics data- types (e.g. transcriptomic, proteomic, etc.) using approaches we have developed (cMonkey and multi-species-cMonkey integrative biclustering). In the DREAM3 and DREAM4 blind assessment of network inference methods they were top performers in the network inference category, and are currently contributing to a joint paper resulting from DREAM5 (the most current assessment of network inference methods).
+
+                                           </small>
+                                       </p>
+                                   </li>
+                               </ul>
+                       </div><!--end Rich information-->
+                   </ul><!--end accordion-->
+               </div><!--span4-->
+        </div><!--/row-fluid-->
+    </div><!--container-fluid-->
+    <div id="footer" class="container" >
+            <div class="row">
+                <div class="span3 my-side-bar">
+                </div>
+                <div class="span7 ">
+                  <ul class="nav nav-pills">
+                    <li>
+                        <a href="index.html" class="text-error">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><p class="text-error">About</p></a>
+                    </li>
+                    <li>
+                        <a href="pi.html"><p class="text-error">People</p></a>
+                    </li>
+                    <li>
+                        <a href="papers.html"><p class="text-error">Resources</p></a>
+                    </li>
+                    <li>
+                        <a href="calendar.html"><p class="text-error">Calendar</p></a>
+                    </li>
+                    <li>
+                        <a href="news.html"><p class="text-error">News</p></a>
+                    </li>                       <li>
+                        <a href="contact.html"><p class="text-error">Contact</p></a>
+                    </li>
+                  </ul>
+                  <P>Copyright &copy; Social Media and Political Participation at New York University
+                    <br/>
+                    Site designed by <a href="student.html" class="muted">Peihong Chai </a> and
+                    <a href="student.html" class="muted">Duncan Penfold-Brown</a>
+                  </P>
+                </div><!--span7-->
+           </div><!--row-->
+        </div><!--footer-->
+    </div><!--wrap-->
+
+
+</body>
+</html>
