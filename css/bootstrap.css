@@ -746,10 +746,11 @@ dd {
   margin-left: 180px;
 }
 hr {
-  margin: 26px 0;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+  	margin: 26px 0;
+  	border: 0;
+  	border-top: 1px solid #eeeeee;
+  	border-bottom: 1px solid #ffffff;
+	color: black;
 }
 abbr[title],
 abbr[data-original-title] {
@@ -5283,4 +5284,10 @@ a.badge:hover {
 }
 .affix {
   position: fixed;
+}
+
+.boxed {
+  	border: 1px solid #dd4814;
+	padding: 10px 10px 10px 10px;
+	margin: 0 85% 0% 0;
 }
