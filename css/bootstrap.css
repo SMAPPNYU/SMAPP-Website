@@ -39,6 +39,7 @@ html {
 }
 #body {
     padding-bottom: 100px;
+	width: 1200px;
 }
 #wrap {
     min-height: 100%;
@@ -48,9 +49,9 @@ html {
 #footer{
     bottom: 0;
     height: 60px;
-    left: 0;
-    position: absolute;
-    right: 0;
+	width: 100%; -webkit-width: 100%; -ms-width: 100%; 
+	margin-left: auto; -webkit-margin-left: auto; -ms-margin-left: auto;
+  	margin-right: auto;
 }
 a:focus {
   outline: thin dotted #333;
@@ -5286,8 +5287,20 @@ a.badge:hover {
   position: fixed;
 }
 
-.boxed {
-  	border: 1px solid #dd4814;
+.boxed-left {
+	float: left;
 	padding: 10px 10px 10px 10px;
-	margin: 0 85% 0% 0;
+	width: 65%; -moz-width: 65%; -webkit-width: 65%;
+/*  	border: 5px solid #dd4814;*/
+	margin: 5px;
+	float: clear;
+}
+
+.boxed-right {
+	float: right; 
+	width: 25%; -moz-width: 25%; -webkit-width: 25%;
+	padding: 5px 5px 5px 5px;
+/*  	border: 5px solid #dd4814;*/
+	margin: 5px;
+	float: clear;
 }
