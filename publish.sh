@@ -10,4 +10,4 @@
 #   -u  update. skip files that are newer on the receiver
 #   -z  compress. compress files during transfer
 
-rsync -arvuz /Users/dpb/dev/repos/SMAPP-Website/ dpb3@wss1.bio.nyu.edu:/var/www/sites/smapp.nyu.edu --exclude '.git' --exclude 'index.html.bak' --exclude 'test.html' --exclude 'publish.sh'
+rsync -arvuz /home/dpb/dev/repos/SMAPP-Website/ dpb3@wss1.bio.nyu.edu:/var/www/sites/smapp.nyu.edu --exclude '.git' --exclude 'index.html.bak' --exclude 'test.html' --exclude 'publish.sh'
