@@ -43,7 +43,8 @@
   		})();
 	</script>
 		  <!--============================================================================================-->
-		  <!--Top navigation bar-->     <!--============================================================================================-->
+		  <!--Top navigation bar-->    
+		  <!--============================================================================================-->
 		      <div class="navbar navbar-fixed-top">
 		      	<div class="navbar-inner">
 		          	<div class="container"> <button type="button" class="btn btn-navbar"
@@ -94,12 +95,13 @@
 		                      	</li>
 								<li><a href="toolsNcode.html">Tools and Code</a></li>
 		                      	<li><a href="contact.html">Contact</a></li>
+								
 		                    	</ul>
 		                  </div>
 		              </div>
 		       	</div>
 		  	 </div>
-<!--====================================================================================-->
+         <!--====================================================================================-->
 <!-- Image carousel -->
 <!--====================================================================================-->
 		<div id="myCarousel" class="carousel slide">
@@ -156,84 +158,111 @@
         <!--end myCarousel--> 
           		
 <!--============================================================================================-->
-<!-- Body Content-->                           
-<!--============================================================================================-->
-<div class="container" style="width:1000px; -moz-width:1000px; -webkit-width:1000px; height:1000px; -moz-height:1000px; -webkit-height:1000px;">         
+  <!-- Body Content-->                           
+<!--================================================++======================================-->
+	<div class="container" style="width:1000px; -moz-width:1000px; -webkit-width:1000px;
+	height:1000px; -moz-height:1000px; -webkit-height:1000px;">         
 		
-<!--============================================================================================-->
-<!-- Collaborators -->      		
-<!--============================================================================================-->
-<div class="span7" style="margin-left: 200px;">
-<h3 >Collaborators</h3>
-<hr>
-
-<!--Begin Adam Berinsky-->
-<li>
-	<a data-toggle="collapse"  href="#BerinskyAdam"><strong>Adam Berinsky</strong>
-		<small>Bio</small><i class="icon-chevron-down"></i></a>
-</li>
-<div id="BerinskyAdam" class="collapse row-fluid">
-	<ul class="thumbnails">
-		<li class="span4">
-			<div class="thumbnail">
-				<img src="img/berinskyAdam.jpg">
-			</div>
-			<a href="mailto:berinsky@mit.edu" class="muted inline">berinsky@mit.edu</a><br>
-			<a href="http://web.mit.edu/berinsky/www/" class="muted">Personal Site</a>
-		</li>
-		<li class="span7">
-			<p>
-<small>Adam Berinsky is a Professor of Political Science at MIT and serves as the director of the MIT Political Experiments Research Lab (PERL). Berinsky received his PhD. from the University of Michigan in 2000. He is the author of In Time of War: Understanding American Public Opinion from World War II to Iraq (University of Chicago Press, 2009). He is also the author of Silent Voices: Public Opinion and Political Participation in America (Princeton University Press, 2004) and has published articles in The American Journal of Political Science, The Journal of Politics, Political Behavior, Political Psychology, Public Opinion Quarterly, The Quarterly Journal of Political Science, American Politics Research, and Communist and Post-Communist Studies. He is the recipient of grants from the National Science Foundation and was a fellow at the Center for Advanced Study in the Behavioral Sciences.</small>
-			</p>
-		</li>
-	</ul>
-</div>
-<!--End Adam Berinsky-->
-
-<!--Begin Marko Klasnja-->
-<li>
-	<a data-toggle="collapse"  href="#KlasnjaMarko"><strong>Marko Klasnja</strong>
-		<small>Bio</small><i class="icon-chevron-down"></i></a>
-</li>
-<div id="KlasnjaMarko" class="collapse row-fluid">
-	<ul class="thumbnails">
-		<li class="span4">
-			<div class="thumbnail">
-				<img src="img/klasnjaMarko.jpg">
-			</div>
-			<a href="mailto:marko.klasnja@gmail.com" class="muted inline">marko.klasnja@gmail.com</a><br>
-		</li>
-		<li class="span7">
-			<p>
-<small>Marko Klasnja is a post-doctoral fellow at the Center for the Study of Democratic Politics at Princeton University. His research mainly centers on the political economy of accountability in developing democracies. To examine the factors that hinder or promote the electoral sanctioning of corrupt politicians, Marko uses a variety approaches, including game-theoretic models, survey and natural experiments, and the analysis of large datasets (e.g. politicians' wealth declarations and a large volume of public procurement contracts to measure corruption more precisely). He is also interested in the issues of political representativeness of social media data.</small>
-			</p>
-		</li>
-	</ul>
-</div>
-<!--End Marko Klasnja-->	
+		<!--====================================================================================-->
+	              <!-- Tools and Code-->      		
+		<!--====================================================================================-->
+        <div class="boxed-left">
+            <h3>Data Collection and Analysis Tools</h3>
+            <p>
+                As part of our project to construct comprehensive data sets and to empirically test 
+				hypotheses related to social and political behavior and attitudes, we have developed
+				a suite of tools and modeling processes now available for broader dissemination. 
+				Below, we list the tools, describe their functionality and outline how interested 
+				parties can best use them. 
+                <br/>
+				<h4>SMaPP Toolkit</h4>
+                <br/>
+                The Toolkit serves as the foundational package for manipulating and analyzing data 
+				sets containing large numbers of tweets. The package uses <a href="https://www.python.org/" 
+				style="color:red" target="_blank">python</a>, a high-level 
+				programming language, but it is extremely user-friendly and intuitive. We discuss how
+				to download python and set up your machine to take advantage of the Toolkit below,
+				but lack of familiarity with the language will not preclude you from finding value 
+				in the tools.
+                <br/>
+                <br/>
+                The Toolkit uses <a href="http://www.mongodb.org/" 
+				style="color:red" target="_blank">MongoDB</a>, an open-source document database, as its back end source. 
+				Once you have collected your data in this form, the Toolkit provides an abundance 
+				of ways to manipulate and analyze that data.
+				<br/>
+				<h5>Manipulation</h5>
+                <br/>
+				The Toolkit allows you to manipulate your collection of tweets in a variety of useful ways. You can 
+				always sort the data by the available metadata, which includes the tweeter’s name, screen name,
+				preferred language, friends and followers, geographic location (where available) and number of tweets.
+				You can segment the data according to time of tweet as well, allowing the interested researcher to see
+				effects in “real time.” The Toolkit also allows the user to dump their manipulated data into .csv files,
+				with columns delineated as chosen by the user.
+				<br/>
+				<h5>Analysis</h5>
+                <br/>
+				The Toolkit allows the user to complete analysis at varying levels of complexity. At the simplest level,
+				users can search their collection of tweets and count the occurrences of a particular word or set of words.
+				They can characterize the tweets by language used or by location of tweeter (extremely useful for 
+				cross-national or cross-ethnic investigations). The Toolkit also provides graphing and figure-making 
+				functionality that allows the user to display data and insights in a visually appealing and informative manner.
+				Some examples of visualizations can be found <a href="http://philosoraptor.bio.nyu.edu:82/figure-gallery/" 
+				style="color:red" target="_blank">here.</a>
+				<br/>
+                <br/>
+				For more detailed documentation, including installation instructions, see the SMaPP toolkit page on github 
+				<a href="https://github.com/SMAPPNYU/smapp-toolkit" 
+				style="color:red" target="_blank">here.</a>
+				<br/>
+				<h4>smappPy</h4>
+                <br/>
+				smappPy is a support package meant for high-level programming use. However, it offers a host of useful functions for those
+				attempting to take advantage of social media data. It can help the researcher from start to finish, beginning with the 
+				collection of the data itself. smappPy contains tools that allow for greater ease in token pulling and any general 
+				interaction with the Twitter API.
+				<br/>
+                <br/>
+				Once data has been gathered, smappPy offers text cleaning modules and utilities that allow you to store your tweets
+				in the appropriate Mongo database format. Additional manipulation functionality includes allowing users to pull images,
+				hashtags and other interesting features from their collection.
+				<br/>
+                <br/>
+				smappPy offers users several advanced analysis options, including LDA topic modeling and tools that allow you to 
+				reconstruct Twitter networks from your collected data.
+				<br/>
+                <br/>
+				You can go to the smappPy page on github <a href="https://github.com/SMAPPNYU/smappPy" 
+				style="color:red" target="_blank">here</a> for additional information, including installation instructions.
+				<br/>
+                <br/>
+				We are constantly adding to the capabilities of the Toolkit and smappPy, so users should ensure that they 
+				have the most recent updates to access full functionality.
+				<br/>
+				<h4>Machine Setup</h4>
+                <br/>
+				All packages outlined here are python-based, and require that the user’s computer meet certain basic 
+				requirements. The lab has established a protocol for ensuring that your computer is properly set up before 
+				attempting to use the various tools. It includes both required and suggested steps, and walks even 
+				introductory-level users through the process step-by-step. The protocol can be found <a href="SMAPP_Website_Papers_Articles/SmappMachineSetup.pdf" 
+				style="color:red" target="_blank">here</a>. 
+				If you have additional questions, please feel free to email the lab.		
+            </p> 
 			
-</ul>
-<!--End staff list-->
+        </div><!--boxed-left-->
+        <div style="clear: both" />  
 
-</div>
-<div style="clear: both"/>  
-
-<!--============================================================================================-->
-<!-- Footer -->          
-<!--============================================================================================-->
-<div class="footer" style="	margin: 100px;">
-<hr style="width: auto; height: 2px; color: black; noshade: noshade;">
-	<p> 
-		Copyright © Social Media and Political Participation at New York University <br>
-        Site designed by <a href="student.html" class="muted">Peihong Chai </a> and <a href="student.html" class="muted">Duncan Penfold-Brown</a> 
-	</p>
-</div>
-
-<!--============================================================================================-->
+<!--========================================================================================-->
+<!-- Footer -->           <!--========================================================================================-->
+       	<div class="footer" style="	margin: 100px;">
+       		<hr style="width: auto; height: 2px; color: black; noshade: noshade;">
+            	<p> Copyright © Social Media and Political Participation at New
+                	York University <br>
+                	Site designed by <a href="student.html" class="muted">Peihong
+                  	Chai </a> and <a href="student.html" class="muted">Duncan
+                 	Penfold-Brown</a> </p>
+        </div><!--footer-->
+            <!--============================================================================================-->
 </body>
-<!--============================================================================================-->
-<!--============================================================================================-->
+  <!--============================================================================================--><!--============================================================================================-->
 </html>
-<!--============================================================================================-->
-<!--============================================================================================-->
-<!--============================================================================================-->
